@@ -1,7 +1,7 @@
 # Paritätsberechnung
 
 ## Gerade Parität
-Bei der geraden Parität muss an jeder Stelle eine gerade Anzahl an Eins-Bits vorhanden sein.
+Bei der geraden Parität muss an jeder Stelle eine gerade Anzahl an Eins-Bits vorhanden sein, d. h. keine oder zwei Einsen.
 
 |Eingabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|
@@ -10,7 +10,7 @@ Bei der geraden Parität muss an jeder Stelle eine gerade Anzahl an Eins-Bits vo
 |Parität|1|0|0|1|1|1|1|1|
 
 ## Ungerade Parität
-Bei der ungeraden Parität muss an jeder Stelle eine ungerade Anzahl an Eins-Bits vorhanden sein.
+Bei der ungeraden Parität muss an jeder Stelle eine ungerade Anzahl an Eins-Bits vorhanden sein, also eine oder drei Einsen.
 
 |Eingabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|
@@ -22,6 +22,7 @@ Bei der ungeraden Parität muss an jeder Stelle eine ungerade Anzahl an Eins-Bit
 Für einen RAID-5-Verbund wird eine weitere Festplatte benötigt. Auf dieser werden die Paritätsinformationen des Verbundes abgelegt. Dadurch kann jede Festplatte ausfallen (inkl. der Paritätsplatte) ohne dass es zu Datenverlust kommt.
 
 ### Beispiel
+Bei einem RAID-5-Verbund fällt die zweite Festplatte aus
 
 |Festplatte|Aufgabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|-|
@@ -29,18 +30,18 @@ Für einen RAID-5-Verbund wird eine weitere Festplatte benötigt. Auf dieser wer
 |2|Daten|0|1|0|1|0|1|0|1|
 |3|Parität|1|0|0|1|1|0|1|0|
 
-### Ausfall von Festplatte 2
+###### Ausfall von Festplatte 2
 
 |Festplatte|Aufgabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|-|
 |1|Daten|1|1|0|0|1|1|1|1|
-|2|Daten|?|?|?|?|?|?|?|?|
+|2 (defekt)|Daten|?|?|?|?|?|?|?|?|
 |3|Parität|1|0|0|1|1|0|1|0|
 
-Ersetzen der zweiten Festplatte und wiederherstellen der Informationen
+###### Ersetzen der zweiten Festplatte und wiederherstellen der Informationen
 
 |Festplatte|Aufgabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|-|
 |1|Daten|1|1|0|0|1|1|1|1|
 |3|Parität|1|0|0|1|1|0|1|0|
-|2|Daten|0|1|0|1|0|1|0|1|
+|2 (neu)|Daten|0|1|0|1|0|1|0|1|
