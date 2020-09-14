@@ -35,7 +35,12 @@ Für einen RAID-5-Verbund wird eine weitere Festplatte benötigt. Auf dieser wer
 |-|-|-|-|-|-|-|-|-|-|
 |1|Daten|1|1|0|0|1|1|1|1|
 |2|Daten|?|?|?|?|?|?|?|?|
-|-|-|-|-|-|-|-|-|-|-|
 |3|Parität|1|0|0|1|1|0|1|0|
 
-Ersetzen der zweiten Festplatte und
+Ersetzen der zweiten Festplatte und wiederherstellen der Informationen
+
+|Festplatte|Aufgabe|7|6|5|4|3|2|1|0|
+|-|-|-|-|-|-|-|-|-|-|
+|1|Daten|1|1|0|0|1|1|1|1|
+|3|Parität|1|0|0|1|1|0|1|0|
+|2|Daten|0|1|0|1|0|1|0|1|
