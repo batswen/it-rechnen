@@ -1,4 +1,9 @@
 # Stromkreise, Leistung und Arbeit
+* U = Spannung
+* I = Stromstärke
+* R = Widerstand
+* t = Zeit
+
 Die Berechnung der Stromstärke wird wie folgt durchgeführt:
 
 **I = U / R**
