@@ -21,8 +21,16 @@ Bei der ungeraden Parität muss an jeder Stelle eine ungerade Anzahl an Eins-Bit
 ## RAID 5
 Für einen RAID-5-Verbund wird eine weitere Festplatte benötigt. Auf dieser werden die Paritätsinformationen des Verbundes abgelegt. Dadurch kann jede Festplatte ausfallen (inkl. der Paritätsplatte) ohne dass es zu Datenverlust kommt.
 
+Die Kapazität berechnet sich durch
+
+**KapazitätDerFestplatten * (AnzahlDerFestplatten - 1)**
+
+Bei drei Festplatten mit jeweils 500 GB Kapazität also:
+
+**500 GB * (3 - 1) = 1000 GB**
+
 ### Beispiel
-Bei einem RAID-5-Verbund fällt die zweite Festplatte aus
+Bei einem RAID-5-Verbund mit drei Festplatten fällt die zweite Festplatte aus
 
 |Festplatte|Aufgabe|7|6|5|4|3|2|1|0|
 |-|-|-|-|-|-|-|-|-|-|
