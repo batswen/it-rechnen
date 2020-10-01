@@ -29,7 +29,7 @@ Bei drei Festplatten mit jeweils 500 GB Kapazität also:
 
 **500 GB * (3 - 1) = 1000 GB**
 
-### Beispiel
+#### Beispiel
 Bei einem RAID-5-Verbund mit drei Festplatten fällt die zweite Festplatte aus
 
 |Festplatte|Aufgabe|7|6|5|4|3|2|1|0|

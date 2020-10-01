@@ -11,7 +11,7 @@ Die Berechnung der Stromstärke wird wie folgt durchgeführt:
 Daraus abgeleitet gilt:
 **U = I * R** bzw. **R = U / I**
 
-### Beispiel
+#### Beispiel
 In einem Stromkreis mit einer Spannungsversorgung von 5 V ist ein Widerstand mit einer Größe von 470 Ω eingebaut. Wie ist die Stromstärke?
 ```
 I = U / R
@@ -33,7 +33,7 @@ Es gilt 1 Ws (Wattsekunde) = 1 J (Joule) = 1 Nm (Newtonmeter)
 
 1 Wh = 3600 Ws = 3600 J
 
-### Beispiel
+#### Beispiel
 
 Ein Monitor verwendet 100mA Strom. Was ist die elektrische Leitung? Welche Menge Energie wird in einer Woche genutzt? (5 Arbeitstage, 9 h pro Tag)
 
