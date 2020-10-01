@@ -16,6 +16,35 @@ x = 4
 
 ## Gleichungen mit zwei Unbekannten
 
+```
+8x = 3y
+2x = y - 2
+
+1.) Auflösen einer Gleichung nach einer Unbekannten (hier y)
+y - 2 = 2x | + 2
+y - 2 + 2 = 2x + 2
+y = 2x + 2
+
+2.) Einsetzen der Gleichung
+8x = 3y
+8x = 3 * (2x + 2)
+
+3.) Berechnen der ersten Unbekannten
+8x = 6x + 6 | - 6x
+8x - 6x = 6x - 6x + 6
+2x = 6 | : 2
+2x : 2 = 6 : 2
+x = 3
+
+4.) Berechnen der zweiten Unbekannten
+8x = 3y
+8 * 3 = 3y
+24 = 3y | : 3
+24 : 3 = 3y : 3
+8 = y
+y = 8
+```
+
 ## Amortisationsrechnung
 
 #### Beispiel
