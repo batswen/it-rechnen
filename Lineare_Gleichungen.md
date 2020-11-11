@@ -45,7 +45,9 @@ x = 3
 y = 8
 ```
 
-## Amortisationsrechnung
+## Amortisationsrechnung (auch Kapitalrückflussrechnung oder -methode)
+
+Oft muss für ein Projekt bewiesen werden, dass sich der Arbeitsaufwand rechnet. Die Amortisationsrechnung kann dabei hilfreich sein. Nicht berücksichtigt werden allerdings der Zeitwert des Geldes (Inflation).
 
 #### Beispiel
 
